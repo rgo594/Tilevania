@@ -256,6 +256,9 @@
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>C:/Users/rgo59/TileVania/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>
@@ -690,6 +693,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

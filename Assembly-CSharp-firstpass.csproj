@@ -92,6 +92,28 @@
     <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\DualTarget\PointAtAimTarget.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\ActivateCamOnPlay.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
+    <Compile Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -178,6 +200,7 @@
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Cinemachine\2.7.1\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
@@ -380,6 +403,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>C:/Users/rgo59/TileVania/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -815,6 +841,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

@@ -275,6 +275,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>C:/Users/rgo59/TileVania/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/rgo59/TileVania/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
@@ -718,6 +721,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/rgo59/TileVania/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
